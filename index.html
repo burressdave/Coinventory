@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Collector App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Coin Collection</h1>
+
+  <form id="coinForm">
+    <input type="text" id="coinType" placeholder="Coin Type (e.g., Penny)" required>
+    <input type="number" id="coinYear" placeholder="Year" required>
+    <input type="text" id="coinCondition" placeholder="Condition (e.g., Good)" required>
+    <button type="submit">Add Coin</button>
+  </form>
+
+  <h2>Collection:</h2>
+  <ul id="coinList"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
